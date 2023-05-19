@@ -4,17 +4,16 @@ lua54 'on'
 
 client_scripts {
 	'config.lua',
-	'client/main.lua'
+	'client/client.lua'
 }
 
 server_scripts {
 	'config.lua',
-	'server/main.lua'
+	'server/server.lua'
 }
 
-ui_page {
-	'html/index.html'
-}
+ui_page 'html/index.html'
+-- loadscreen 'load.html'
 
 files {
 	'html/**/*',

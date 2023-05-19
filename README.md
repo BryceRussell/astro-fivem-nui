@@ -5,7 +5,8 @@ This is a template for creating a NUI resource for FiveM using Astro
 ## Features
 
 - Build small NUIs (<100kb) 
-- Tailwind for styling
+- Image optimization and icons
+- Style using Tailwind
 - Easy to install fonts using [Fontsource](https://docs.astro.build/en/guides/fonts/#using-fontsource)
 - [Cash](https://github.com/fabiospampinato/cash) a tiny(16kb) jQuery alternative
 - Custom NUI utility to make message handling, callbacks, etc easier
