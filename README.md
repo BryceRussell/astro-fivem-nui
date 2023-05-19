@@ -35,10 +35,10 @@ This is a template for creating a NUI resource for FiveM using Astro
 ## Notes
 
 - This template comes with [Cash](https://github.com/fabiospampinato/cash) installed by default but you can use whatever you want for client side interactivity:
-  - [Svelte](https://svelte.dev/), [SolidJS](https://www.solidjs.com/), [Preact](https://preactjs.com/)
+  - [Svelte](https://svelte.dev/), [SolidJS](https://www.solidjs.com/), [Preact](https://preactjs.com/), [LIT](https://lit.dev/)
   - [jQuery](https://github.com/jquery/jquery), [Zepto](https://github.com/madrobby/zepto), [UmbrellaJS](https://github.com/franciscop/umbrella)
   - [Micro DOM utilities](http://microjs.com/#dom)
 
-- Do not use React or Vue in your NUI. The goal of this template it to create small/tiny/micro NUIs and both frameworks are too large
+- Do not use React or Vue in your NUI. The goal of this template it to create small/tiny/micro NUIs and both frameworks are too large for this use case
 
 
