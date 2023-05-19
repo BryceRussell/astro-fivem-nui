@@ -1,0 +1,24 @@
+{ import.meta.env.DEV &&
+  <style is:inline>
+    :root {
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: background-image 1s ease;
+      animation: dev-background 60s infinite;
+    }
+    @keyframes dev-background {
+      0%, 100% {
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FPOC-zSlMIbQ%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=0acc09464f983de50f2cb1f8ab9271c191546ac04cff02db2cb71474b895dd2a&ipo=images');
+      }
+      25% {
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FzuXEpKAJC3U%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=444c3a01eb34aa97abc73c5bb071f4decf33d72aa180827d373b7a9f22fd5ad2&ipo=images');
+      }
+      50% {
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FncYcJHRBLME%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=09e2a4a567bcc78f0d767f32c27a7ac50e16a2512e71d6046fcd476a8487beae&ipo=images');
+      }
+      75% {
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.gta5-mods.com%2Fq75%2Fimages%2Fpolice-center-paleto-bay-ymap-fivem%2F149af8-police.jpg&f=1&nofb=1&ipt=2e27476feb2711d55336961d47a77b26ce2fe86aed12e5321da392815a3c9358&ipo=images');
+      }
+    }
+  </style>
+}

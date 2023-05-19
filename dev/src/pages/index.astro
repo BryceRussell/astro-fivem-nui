@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets';
+import { Icon } from "astro-icon";
+
+import DevBackground from '~/components/DevBackground.astro';
+import Scripts from '~/components/Scripts.astro';
+
+import '~/styles.css'
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body class:list={[
+    import.meta.env.PROD && 'hidden',
+    ''
+  ]}>
+
+
+
+    <Scripts />
+    <DevBackground />
+  </body>
+</html>
+
