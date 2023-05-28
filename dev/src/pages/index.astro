@@ -1,10 +1,7 @@
 ---
-import { Image } from 'astro:assets';
-import { Icon } from "astro-icon";
-
+import { Image } from 'astro:assets'; // For optimizing bitmap images in `src/assets`
+import { Icon } from "astro-icon"; // For svg/icons from iconify or `src/icons`
 import DevBackground from '~/components/DevBackground.astro';
-import Scripts from '~/components/Scripts.astro';
-
 import '~/styles.css'
 ---
 
@@ -20,8 +17,12 @@ import '~/styles.css'
 
 
 
-    <Scripts />
     <DevBackground />
   </body>
 </html>
+
+<script>
+  import { NUI } from '~/client'
+  window.NUI = NUI
+</script>
 
