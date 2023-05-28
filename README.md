@@ -1,5 +1,5 @@
 <span>
-  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-VEePVB7eAyE%2FX2TrnPDr6aI%2FAAAAAAAAA_E%2FA8BlFuvwQIMB61UkF1STc2kdC8Zrj78nQCPcBGAYYCw%2Fs512%2Ffivem-logo.png&f=1&nofb=1&ipt=ac3a853084b6093f1719d992c28b90c9ecbd2562cf810e16eea932f1ed3302b9&ipo=images" width="96" height="96">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-VEePVB7eAyE%2FX2TrnPDr6aI%2FAAAAAAAAA_E%2FA8BlFuvwQIMB61UkF1STc2kdC8Zrj78nQCPcBGAYYCw%2Fs512%2Ffivem-logo.png&f=1&nofb=1&ipt=ac3a853084b6093f1719d992c28b90c9ecbd2562cf810e16eea932f1ed3302b9&ipo=images" width="80" height="80">
   <img src="https://astro.build/assets/press/astro-logo-dark.svg">
 <span>
 
