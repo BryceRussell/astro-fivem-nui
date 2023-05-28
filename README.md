@@ -16,7 +16,11 @@ This is a template for creating a [FiveM](https://fivem.net/) [NUI resource](htt
 
 ## How to Use
 
-1) [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the project into a [local dev server](https://docs.fivem.net/docs/server-manual/setting-up-a-server/)
+### [Using the Dev Enviroment](/dev)
+                             
+### Setup
+
+1) [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the project into a [local FiveM dev server](https://docs.fivem.net/docs/server-manual/setting-up-a-server/) as a resource
 
 2) Use the terminal to naviagte to the `dev` folder (`cd dev`)
 
@@ -30,12 +34,9 @@ This is a template for creating a [FiveM](https://fivem.net/) [NUI resource](htt
 
 **Testing In-game**:
 
-1) Use the command `pnpm  build` to build your NUI. This will create a folder named `html` used by the resource
+1) Use the command `pnpm  build` to build your NUI
 
-2) Use the command `restart [resource-name]` inside your FiveM server
- 
-
-## Notes
+2) Use the command `restart [resource-name]` inside your FiveM server test the new changes
 
 
 
