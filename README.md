@@ -1,14 +1,17 @@
+<span>
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-VEePVB7eAyE%2FX2TrnPDr6aI%2FAAAAAAAAA_E%2FA8BlFuvwQIMB61UkF1STc2kdC8Zrj78nQCPcBGAYYCw%2Fs512%2Ffivem-logo.png&f=1&nofb=1&ipt=ac3a853084b6093f1719d992c28b90c9ecbd2562cf810e16eea932f1ed3302b9&ipo=images" width="96" height="96">
+  <img src="https://astro.build/assets/press/astro-logo-dark.svg">
+<span>
+
 # Astro FiveM NUI Template
 
-This is a template for creating a NUI resource for FiveM using Astro
+This is a template for creating a [FiveM](https://fivem.net/) [NUI resource](https://docs.fivem.net/docs/scripting-manual/nui-development/) using Astro
 
 ## Features
 
-- Build small NUIs (<100kb) 
+- Easily build small(<100kb) NUIs
+- Tailwind preinstalled for styling
 - Image optimization and icons
-- Style using Tailwind
-- Easy to install fonts using [Fontsource](https://docs.astro.build/en/guides/fonts/#using-fontsource)
-- [Cash](https://github.com/fabiospampinato/cash) a tiny(16kb) jQuery alternative
 - Custom NUI utility to make message handling, callbacks, etc easier
 
 ## How to Use
@@ -34,11 +37,6 @@ This is a template for creating a NUI resource for FiveM using Astro
 
 ## Notes
 
-- This template comes with [Cash](https://github.com/fabiospampinato/cash) installed by default but you can use whatever you want for client side interactivity:
-  - [Svelte](https://svelte.dev/), [SolidJS](https://www.solidjs.com/), [Preact](https://preactjs.com/), [LIT](https://lit.dev/)
-  - [jQuery](https://github.com/jquery/jquery), [Zepto](https://github.com/madrobby/zepto), [UmbrellaJS](https://github.com/franciscop/umbrella)
-  - [Micro DOM utilities](http://microjs.com/#dom)
 
-- Do not use React or Vue in your NUI. The goal of this template it to create small/tiny/micro NUIs and both frameworks are too large for this use case
 
 
