@@ -1,10 +1,12 @@
 export class NUIHandler {
+  identifier: string;
   parentResource: string | undefined;
   messages: Record<string, Record<string, any>>;
   handlers: Record<string, ((data: Record<string, any>) => void)[]>;
   globalHandlers: ((data: Record<string, any>) => void)[];
 
   constructor(identifier: string = "type") {
+    this.identifier = identifier
     this.handlers = {};
     this.messages = {};
     this.globalHandlers = [];
@@ -35,7 +37,7 @@ export class NUIHandler {
   }
 
   trigger(type: string, data?: Record<string, any>) {
-    window.dispatchEvent(new CustomEvent("message", { detail: { type, ...data }}));
+    window.dispatchEvent(new CustomEvent("message", { detail: { [this.identifier]: type, ...data }}));
   }
 
   callback(
