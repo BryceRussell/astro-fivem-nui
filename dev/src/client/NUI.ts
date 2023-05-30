@@ -58,19 +58,6 @@ export class NUIHandler {
       .then((resp) => resp.json())
       .then((resp) => cb && cb(resp));
   }
-
-  key(key: string, handler: () => void, ctx: Node = document) {
-    ctx.addEventListener("keydown", (event: Event) => {
-      if ((event as KeyboardEvent).key === key) {
-        handler();
-      }
-    });
-  }
-
-  url(url: string) {
-    if (!url) return;
-    window.invokeNative("openUrl", url);
-  }
 }
 
 export const NUI = new NUIHandler()
