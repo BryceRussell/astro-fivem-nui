@@ -1,6 +1,6 @@
 ---
-import { Image } from 'astro:assets'; // For optimizing bitmap images in `src/assets`
-import { Icon } from "astro-icon"; // For svg/icons from iconify or `src/icons`
+// import { Image } from 'astro:assets'; // For optimizing bitmap images in `src/assets`
+// import { Icon } from "astro-icon"; // For svg/icons from iconify or `src/icons`
 import DevBackground from '~/components/DevBackground.astro';
 import '~/styles.css'
 ---
@@ -22,7 +22,14 @@ import '~/styles.css'
 </html>
 
 <script>
-  import { NUI } from '~/client'
+  import { NUI, onKey } from '~/client'
+  
   window.NUI = NUI
+
+  NUI.on("close", () => document.body.classList.add("hidden"));
+
+  NUI.on("open", () => document.body.classList.remove("hidden"));
+
+  onKey("Escape", () => NUI.callback("close"));
 </script>
 
